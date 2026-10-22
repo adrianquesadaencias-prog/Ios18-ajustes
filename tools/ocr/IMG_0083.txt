@@ -1,0 +1,21 @@
+19:34 Miércoles 21 de octubre                                                                                                                                                                  FP 49 % (54, )
+Ajustes                                                                          Accesibilidad
+8   Centro de control
+   Fondo de pantalla                          VISION
+E)   Multitarea y gestos   VoiceOver                                                                            No
+   Pantalla de inicio y biblioteca  Zoom                                                                         No
+de apps
+.                                  &)  Texto flotante                                                                 No
+&   Pantalla y brillo                                J
+a   Siri   Pantalla y tamaño del texto
+   Movimiento
+a   Notificaciones                                6)  Contenido leído
+   Sonidos                                        ©  Audiodescripción                                                            No
+   Modos de concentración
+   Tiempo de uso                                  HABILIDADES FÍSICAS Y MOTORAS
+O  Tocar
+(5) Touch ID y código   Control por botón                                                              No
+Ww |   Privacidad y seguridad                     O   Control por voz                                                                  No
+@   Boton de inicio
+O   Cartera y Apple Pay
+@ Game Center                                 AUDICIÓN

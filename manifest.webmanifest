@@ -1,0 +1,20 @@
+{
+  "name": "Ajustes — iPadOS 18 (réplica)",
+  "short_name": "Ajustes",
+  "description": "Réplica visual de los Ajustes de iPadOS 18. Simulación: no modifica ningún ajuste real del dispositivo.",
+  "lang": "es",
+  "start_url": "./index.html",
+  "scope": "./",
+  "id": "/ipados-ajustes-18",
+  "display": "standalone",
+  "display_override": ["standalone", "fullscreen"],
+  "orientation": "any",
+  "background_color": "#F2F2F7",
+  "theme_color": "#F2F2F7",
+  "categories": ["utilities", "productivity"],
+  "icons": [
+    { "src": "icon-180.png", "sizes": "180x180", "type": "image/png", "purpose": "any" },
+    { "src": "icon-512.png", "sizes": "512x512", "type": "image/png", "purpose": "any" },
+    { "src": "icon-maskable-512.png", "sizes": "512x512", "type": "image/png", "purpose": "maskable" }
+  ]
+}

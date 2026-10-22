@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="es" data-theme="light">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, viewport-fit=cover, user-scalable=no">
+<title>Ajustes</title>
+
+<!-- PWA: hace que Safari la instale como app a pantalla completa -->
+<meta name="apple-mobile-web-app-capable" content="yes">
+<meta name="mobile-web-app-capable" content="yes">
+<meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+<meta name="apple-mobile-web-app-title" content="Ajustes">
+<meta name="application-name" content="Ajustes">
+<meta name="theme-color" content="#F2F2F7" media="(prefers-color-scheme: light)">
+ <meta name="theme-color" content="#000000" media="(prefers-color-scheme: dark)">
+ <meta name="format-detection" content="telephone=no">
+ <meta name="description" content="Réplica visual de los Ajustes de iPadOS 18 con los datos reales de tu iPad. Simulación sin efecto sobre el sistema.">
+ 
+ <link rel="manifest" href="manifest.webmanifest">
+ <link rel="apple-touch-icon" href="icon-180.png">
+ <link rel="icon" href="icon-180.png">
+ <link rel="stylesheet" href="styles.css">
+ </head>
+ <body>
+ 
+ <div class="app" id="app">
+
+  <!-- ============ Columna lateral ============ -->
+  <aside class="sidebar" id="sidebar">
+    <div class="sidebar-scroll">
+      <div class="side-title">Ajustes</div>
+
+<div class="searchbar" id="searchbar">
+        <svg class="mag" viewBox="0 0 16 16" aria-hidden="true"><path d="M11.74 10.34a6.5 6.5 0 1 0-1.4 1.4l3.23 3.22a1 1 0 0 0 1.41-1.41l-3.22-3.23ZM2.5 7a4.5 4.5 0 1 1 9 0 4.5 4.5 0 0 1-9 0Z"/></svg>
+        <input id="search" type="search" placeholder="Buscar" autocomplete="off" autocorrect="off" spellcheck="false">
+        <svg class="mic" viewBox="0 0 18 22" aria-hidden="true"><path d="M9 13.5a3.5 3.5 0 0 0 3.5-3.5V4a3.5 3.5 0 0 0-7 0v6A3.5 3.5 0 0 0 9 13.5Zm5-3.5a5 5 0 0 1-10 0H2a7 7 0 0 0 6 6.93V20H5v2h8v-2h-3v-3.07A7 7 0 0 0 16 10h-2Z"/></svg>
+        <button class="search-cancel" id="search-cancel" hidden aria-label="Cancelar">Cancelar</button>
+      </div>
+
+      <!-- Tarjeta de la cuenta de Apple -->
+      <div class="account locked" id="account" aria-disabled="true">
+        <div class="acc-top">
+          <span class="avatar">AQ</span>
+          <span class="who">
+            <span class="name" id="acct-name">Adrian Quesada<br>Encinas</span>
+            <span class="sub">Cuenta de Apple, iCloud y más</span>
+          </span>
+        </div>
+      </div>
+
+      <nav class="side-list" id="side-list"></nav>
+    </div>
+  </aside>
+
+  <!-- ============ Panel de detalle ============ -->
+  <main class="detail" id="detail">
+    <div class="pages" id="pages"></div>
+    <button class="page-back" id="page-back" type="button" hidden aria-label="Atrás">
+      <svg viewBox="0 0 11 19" aria-hidden="true"><path d="M9.6 0 0 9.5 9.6 19l1.6-1.6L3.2 9.5 11.2 1.6 9.6 0Z"/></svg>
+      <span class="t">Atrás</span>
+    </button>
+  </main>
+</div>
+
+<!-- ============ Hojas y avisos ============ -->
+<div class="modal-host" id="modal-host" hidden></div>
+<div class="toast" id="toast" hidden></div>
+
+<script src="device.js"></script>
+<script src="icons.js"></script>
+<script src="data.js"></script>
+<script src="app.js"></script>
+</body>
+</html>
